@@ -1,0 +1,50 @@
+{
+  "name": "@material-ui/grid-provider",
+  "version": "4.0.0-alpha.9",
+  "description": "The Material-UI community edition of the grid provider component.",
+  "author": "Material-UI Team",
+  "main": "dist/index-cjs.js",
+  "module": "dist/index-esm.js",
+  "types": "dist/gridProvider.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "material-ui",
+    "react-table",
+    "table",
+    "datatable",
+    "data-table",
+    "datagrid",
+    "gridProvider"
+  ],
+  "scripts": {
+    "precommit": "npm run lint",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --quiet --fix -c ../../../.eslintrc.js",
+    "typescript": "tsc -p tsconfig.json",
+    "build": "cd ../ && rollup --config rollup.gridProvider.config.js"
+  },
+  "dependencies": {
+    "@material-ui/utils": "^5.0.0-alpha.14",
+    "prop-types": "^15.7.2",
+    "reselect": "^4.0.0",
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.9.12",
+    "react": "^16.8.0"
+  },
+  "setupFiles": [
+    "<rootDir>/src/setupTests.js"
+  ],
+  "gitHead": "f1d56176bb6308bb55c69f5c2fd5593c4e4faebc",
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

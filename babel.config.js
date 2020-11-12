@@ -21,6 +21,7 @@ const defaultAlias = {
   '@material-ui/data-grid': './packages/grid/data-grid/src',
   '@material-ui/x-grid-data-generator': './packages/x-grid-data-generator/src',
   '@material-ui/x-grid': './packages/grid/x-grid/src',
+  '@material-ui/grid-provider': './packages/grid/gridProvider/src',
   '@material-ui/x-license': './packages/x-license/src',
 };
 

@@ -13,6 +13,7 @@ module.exports = {
         './packages/x-grid-data-generator/src',
       ),
       '@material-ui/x-grid': path.resolve(__dirname, './packages/grid/x-grid/src'),
+      '@material-ui/grid-provider': path.resolve(__dirname, './packages/grid/gridProvider/src'),
       '@material-ui/x-license': path.resolve(__dirname, './packages/x-license/src'),
       docs: path.resolve(__dirname, './docs/node_modules/@material-ui/monorepo/docs'),
       docsx: path.resolve(__dirname, './docs'),
